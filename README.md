@@ -9,6 +9,8 @@ details and gets desired results.
 This multi-threaded server has the information about where each service is implemented. Whenever a client
 requests a service, the server creates a thread to serve the request. The request is then served in collaboration
 with relevant Service Provider Server.
+
+
 #Service Provider Servers:
 These servers actually implement a service. A total of 03 such servers are to be implemented with following
 details:
