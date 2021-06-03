@@ -1,14 +1,15 @@
 # multi_tier_multi_threaded_tcp_servers-
 
 
-3.1 Client:
+#Client:
 A client connects to Main Server and requests any of the three services. The client provides all necessary
 details and gets desired results.
-3.2 Main Server:
+
+#Main Server:
 This multi-threaded server has the information about where each service is implemented. Whenever a client
 requests a service, the server creates a thread to serve the request. The request is then served in collaboration
 with relevant Service Provider Server.
-3.3 Service Provider Servers:
+#Service Provider Servers:
 These servers actually implement a service. A total of 03 such servers are to be implemented with following
 details:
 • Server1 is an echo service i.e., returns the same string back as passed to it.
